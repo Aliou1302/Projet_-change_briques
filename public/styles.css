@@ -1,0 +1,88 @@
+/* Style général du corps */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 2px;
+}
+
+/* Style du conteneur principal */
+.container {
+    
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Style du tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    margin-bottom: 1px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center; /* Centre le contenu dans les cellules */
+}
+
+th {
+    background: #007bff; /* Couleur de fond des en-têtes */
+    color: white; /* Couleur du texte des en-têtes */
+}
+
+/* Style des informations sur les briques */
+.brick-info {
+    display: flex;
+    flex-direction: column; /* Les informations seront affichées en colonne */
+    align-items: center; /* Centre les éléments */
+}
+
+.img-brick {
+    width: 200px; /* Largeur fixe pour l'image de la brique */
+    height: auto; /* Garde le rapport d'aspect de l'image */
+    margin-bottom: 5px; /* Espacement entre l'image et les informations */
+}
+
+/* Style des champs de quantité */
+.quantity-input {
+    width: 150px; /* Largeur fixe pour les champs de quantité */
+}
+
+/* Style pour le bouton de soumission */
+.button {
+    background-color: #28a745; /* Couleur de fond verte */
+    color: white; /* Couleur du texte */
+    padding: 10px 15px; /* Espacement interne */
+    border: none; /* Supprime la bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Change le curseur au survol */
+    font-size: 20px; /* Taille du texte */
+    width: 1058px;
+    height: 47px;
+}
+
+.button:hover {
+    background-color: #218838; /* Couleur de fond au survol */
+}
+
+
+.nomEchange {
+    width: 1050px;
+    height: 45px;
+    font-size: 20px;
+}
+header, footer {
+    padding: 1rem;
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
